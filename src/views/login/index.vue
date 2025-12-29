@@ -13,12 +13,12 @@
       <div class="wave wave-3"></div>
     </div>
     <div class="view-account-container animate__animated animate__fadeInDown">
-      <div class="view-account-top">
+      <!-- <div class="view-account-top">
         <div class="view-account-top-logo">
           <img :src="websiteConfig.loginImage" alt="" />
         </div>
         <div class="view-account-top-desc">{{ websiteConfig.loginDesc }}</div>
-      </div>
+      </div> -->
       <div class="view-account-form">
         <h2 class="view-account-title">账号登录</h2>
         <div class="login-welcome">欢迎回来，请登录您的账号</div>
@@ -80,7 +80,7 @@
               登录
             </n-button>
           </n-form-item>
-          <n-form-item class="default-color other-item">
+          <!-- <n-form-item class="default-color other-item">
             <div class="flex view-account-other">
               <div class="flex-initial other-text">
                 <span>其它登录方式</span>
@@ -106,7 +106,7 @@
                 <a href="javascript:" class="register-link">注册账号</a>
               </div>
             </div>
-          </n-form-item>
+          </n-form-item> -->
         </n-form>
       </div>
     </div>
